@@ -1,0 +1,12 @@
+#var = input('Digite algo:')
+#print(var.isalpha())
+
+var = input('Digite algo: ')
+print('O tipo primitivo desse valor é: ', type(var))
+print(var.isspace())
+print(var.isnumeric())
+print(var.isalpha())
+print(var.isalnum())
+print(var.isupper())
+print(var.islower())
+print(var.istitle())
